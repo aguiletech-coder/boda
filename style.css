@@ -1321,3 +1321,67 @@ h1{
 
     cursor: pointer;
 }
+
+#regalo{
+
+    text-align: center;
+}
+
+.regalo-texto{
+
+    max-width: 700px;
+
+    margin: 0 auto 30px auto;
+
+    font-size: 1.1rem;
+
+    line-height: 1.8;
+}
+
+.tarjeta-box{
+
+    max-width: 450px;
+
+    margin: 0 auto;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    background: rgba(255,255,255,.4);
+
+    backdrop-filter: blur(5px);
+}
+
+.tarjeta-box h3{
+
+    font-size: 2.5rem;
+
+    color: #6d1f2f;
+
+    margin-bottom: 10px;
+}
+
+.tarjeta-box h4{
+
+    margin-top: 20px;
+
+    color: #6d1f2f;
+}
+
+.copiar-alias{
+
+    margin-top: 20px;
+
+    padding: 12px 25px;
+
+    border: none;
+
+    border-radius: 30px;
+
+    cursor: pointer;
+
+    background: #6d1f2f;
+
+    color: white;
+}

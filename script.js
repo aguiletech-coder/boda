@@ -200,3 +200,19 @@ window.addEventListener("click", (e) => {
     }
 
 });
+
+const copiarBtn = document.querySelector(".copiar-alias");
+
+if(copiarBtn){
+
+    copiarBtn.addEventListener("click", () => {
+
+        navigator.clipboard.writeText(
+            "camila.matias.boda"
+        );
+
+        copiarBtn.innerHTML = "✓ Alias copiado";
+
+    });
+
+}
